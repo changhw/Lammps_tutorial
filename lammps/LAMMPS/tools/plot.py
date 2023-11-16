@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # Script:  plot.py
 # Purpose: create a simple plot via matplotlib

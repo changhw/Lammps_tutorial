@@ -27,8 +27,8 @@ running the original input script.
 % lmp -in in.friction
 % log2txt.py log.lammps data.txt     # col2 = temp, col6 = pressure
 
-% plot.py data.txt 1,2 1,6           # plot temp and pressure on same plot
-% plot.py data.txt 1,2,Temp 1,6,Press     # same plot with curve labels
+% plot.py out01.png data.txt 1,2 1,6           # plot temp and pressure on same plot
+% plot.py out02.png data.txt 1,2,Temp 1,6,Press     # same plot with curve labels
 % open image.00000.jpg                # view initial snapshot
 % open image.20000.jpg                # view final snapshot
 % open movie.mpg                      # play movie
